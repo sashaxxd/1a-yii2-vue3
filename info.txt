@@ -1,0 +1,7 @@
+1. Используем глобально vue cli https://cli.vuejs.org/ru/ npm install -g @vue/cli
+2. В папке vue в корне устанавливаем проект vue -  vue create yii-widget1
+и запускаем его в папке yii-widget1 npm run serve
+npm run build - по умолчанию собирает в папку с виджетом - надо перенести в нужную папку yii
+npm run build --watch --mode development
+Для этого создадим vue.config.js и  укажем нужную папку
+
